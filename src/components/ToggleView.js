@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import ObjectPicking from './components/ObjectPicking';
-import PointRaycasting from './components/PointRaycasting';
+import ObjectPicking from './ObjectPicking';
+import PointRaycasting from './PointRaycasting';
 
-/* class App extends Component {
+class ToggleView extends Component {
 
     constructor(props) {
         super(props);
@@ -21,7 +21,7 @@ import PointRaycasting from './components/PointRaycasting';
         return(
             <div>
                 <div className="header">
-                    <p>Three.js Tutorials & Examples adapted for React</p>
+                    <p>Three.js Tutorials/Examples adapted for React</p>
                     <button onClick={this.toggleView}>toggle tutorial</button>
                 </div>
                 {!this.state.toggle && <PointRaycasting />}
@@ -32,12 +32,4 @@ import PointRaycasting from './components/PointRaycasting';
     
 }
 
-export default App; */
-
-const App = () => {
-    return(
-        <PointRaycasting />
-    );
-}
-
-export default App;
+export default ToggleView;

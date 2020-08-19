@@ -14,3 +14,9 @@ canvas{
   height: 100vh;
   display: block;
 }
+
+.header {
+  height: 3rem;
+  text-align: center;
+  padding: 0.5rem 0rem;
+}
